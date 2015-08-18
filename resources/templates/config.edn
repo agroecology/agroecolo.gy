@@ -1,19 +1,19 @@
-{:site-title         "My Awesome Blog"
- :author             "Bob Bobbert"
- :description        "This blog is awesome"
- :site-url           "http://blogawesome.com/"
+{:site-title         "Agroecolo.gy"
+ :author             "Duncan McGreggor"
+ :description        "The Agroecology Summit"
+ :site-url           "http://summit.agroecolo.gy/"
  :post-root          "posts"
  :tag-root           "tags"
  :page-root          "pages"
- :blog-prefix        "/blog"
+ :blog-prefix        "/"
  :rss-name           "feed.xml"
  :rss-filters        ["cryogen"]
  :recent-posts       3
  :post-date-format   "yyyy-MM-dd"
  :sass-src           nil
  :sass-dest          nil
- :theme              "blue"
- :resources          ["img"]
+ :theme              "blue_centered"
+ :resources          ["img", "favicon.ico"]
  :keep-files         [".git"]
  :disqus?            false
  :disqus-shortname   ""
