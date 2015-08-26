@@ -1,0 +1,3 @@
+[submodule "resources/templates/themes/thompson_fields"]
+	path = resources/templates/themes/thompson_fields
+	url = git@github.com:agroecology/thompson-fields.git
