@@ -47,5 +47,5 @@ $ lein run
 To publish updated content to the site:
 
 ```bash
-$ make puublish
+$ make publish
 ```
