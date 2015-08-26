@@ -1,6 +1,6 @@
 BASE_DIR = $(shell pwd)
 BUILD_DIR = $(BASE_DIR)/resources/public
-REPO = $(shell git config --get remote.origin.url)
+REPO = git@github.com:agroecology/agroecology.github.io.git
 
 build:
 	lein run
@@ -18,4 +18,4 @@ publish: clean build
 	git init && \
 	git add * &> /dev/null && \
 	git commit -a -m "Generated content." &> /dev/null && \
-	git push -f $(REPO) master:gh-pages
+	git push -f $(REPO) master:master
