@@ -1,7 +1,7 @@
-{:site-title         "The Agroecology Summit"
+{:site-title         "Agroecology"
  :author             "Duncan McGreggor"
- :description        "The Agroecology Summit"
- :site-url           "http://summit.agroecolo.gy/"
+ :description        "Agroecology"
+ :site-url           "http://agroecolo.gy/"
  :post-root          "posts"
  :tag-root           "tags"
  :page-root          "pages"
@@ -17,7 +17,7 @@
  :keep-files         [".git"]
  :disqus?            false
  :disqus-shortname   ""
- :ignored-files      [#"\.#.*" #".*\.swp$"]
+ :ignored-files      [#"\.#.*" #".*\.sw[op]$"]
  :posts-per-page     5
  :blocks-per-preview 2
  :previews?          false}

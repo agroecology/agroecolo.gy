@@ -24,7 +24,8 @@ body {
 }
 
 .navbar-default {
-    background-color: #e0e2c0;
+    background-color: #a88d12;
+    background-image: url(../img/header.png);
     border: none;
 }
 
