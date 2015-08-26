@@ -4,6 +4,7 @@ REPO = git@github.com:agroecology/agroecology.github.io.git
 
 build:
 	lein run
+	echo agroecolo.gy > $(BUILD_DIR)/CNAME
 
 dev:
 	lein ring server
