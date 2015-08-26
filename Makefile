@@ -11,8 +11,10 @@ dev:
 clean:
 	rm -rf $(BUILD_DIR)
 
-publish: clean build
+commit-latest:
 	-@git commit -a; git push origin master
+
+publish: commit-latest clean build
 	@rm -rf $(BUILD_DIR)/.git
 	@cd $(BUILD_DIR) && \
 	git init && \
