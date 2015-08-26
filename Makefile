@@ -1,0 +1,2 @@
+dev:
+	lein ring server
