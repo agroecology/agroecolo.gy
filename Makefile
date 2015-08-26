@@ -2,11 +2,14 @@ BASE_DIR = $(shell pwd)
 BUILD_DIR = $(BASE_DIR)/resources/public
 REPO = $(shell git config --get remote.origin.url)
 
+build:
+	lein run
+
 dev:
 	lein ring server
 
-build:
-	lein run
+clean:
+	rm -rf $(BUILD_DIR)
 
 publish: clean build
 	-@git commit -a; git push origin master
