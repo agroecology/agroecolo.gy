@@ -4,7 +4,7 @@ Top-level site for http://agroecolo.gy/
 
 ## Setup
 
-If you are going to contribute to the Agroecolo.gy site content, you will need
+If you are going to contribute to the contents of the Agroecolo.gy sites, you will need
 to have the following installed (links are to instructions):
 
 * [Java](https://www.java.com/en/download/help/index_installing.xml)
