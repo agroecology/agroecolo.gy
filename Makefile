@@ -22,3 +22,10 @@ publish: commit-latest clean build
 	git add * &> /dev/null && \
 	git commit -a -m "Generated content." &> /dev/null && \
 	git push -f $(REPO) master:master
+
+# The next target is only here for documentation sake; this only needed to be
+# done once, during the initial setup of the repository.
+setup:
+	git submodule add \
+	git@github.com:agroecology/thompson-fields.git \
+	resources/templates/themes/thompson_fields
