@@ -1,3 +1,4 @@
+DOMAIN = agroecolo.gy
 BASE_DIR = $(shell pwd)
 BUILD_DIR = $(BASE_DIR)/resources/public
 REPO = git@github.com:agroecology/agroecology.github.io.git
@@ -6,7 +7,7 @@ THEME_DIR = resources/templates/themes/thompson_fields
 
 build:
 	lein run
-	echo agroecolo.gy > $(BUILD_DIR)/CNAME
+	echo $(DOMAIN) > $(BUILD_DIR)/CNAME
 
 dev:
 	lein ring server
